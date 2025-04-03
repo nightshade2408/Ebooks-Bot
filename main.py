@@ -16,7 +16,7 @@ import json
 with open('config.json', 'r') as f: data = json.load(f)
 def getenv(var): return os.environ.get(var) or data.get(var, None)
 
-bot_token = getenv("BOT_TOKEN")
+bot_token = getenv("7867100453:AAG7YADvkHve5H9kmjSLt7GcOKg20KEz68g")
 api_hash = getenv("API_HASH")
 api_id = getenv("API_ID")
 
